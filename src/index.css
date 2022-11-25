@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'TT Severs';
+  src: url('../font/TTSevers-Medium.eot');
+  src: local('../font/TT Severs Medium'), local('../font/TTSevers-Medium'),
+      url('../font/TTSevers-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../font/TTSevers-Medium.woff2') format('woff2'),
+      url('../font/TTSevers-Medium.woff') format('woff'),
+      url('../font/TTSevers-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Severs';
+  src: url('../font/TTSevers-Bold.eot');
+  src: local('../font/TT Severs Bold'), local('../font/TTSevers-Bold'),
+      url('../font/TTSevers-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../font/TTSevers-Bold.woff2') format('woff2'),
+      url('../font/TTSevers-Bold.woff') format('woff'),
+      url('../font/TTSevers-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Severs';
+  src: url('../font/TTSevers-DemiBold.eot');
+  src: local('../font/TT Severs DemiBold'), local('../font/TTSevers-DemiBold'),
+      url('../font/TTSevers-DemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../font/TTSevers-DemiBold.woff2') format('woff2'),
+      url('../font/TTSevers-DemiBold.woff') format('woff'),
+      url('../font/TTSevers-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Severs';
+  src: url('../font/TTSevers-Regular.eot');
+  src: local('../font/TT Severs Regular'), local('../font/TTSevers-Regular'),
+      url('../font/TTSevers-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../font/TTSevers-Regular.woff2') format('woff2'),
+      url('../font/TTSevers-Regular.woff') format('woff'),
+      url('../font/TTSevers-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'TT Severs';
+}
+
+.crop {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow-y: hidden;
+  margin-left: 16px;
+}
+.two {
+  -webkit-line-clamp: 2;
+}
+.three {
+  -webkit-line-clamp: 3;
+}
+.four {
+  -webkit-line-clamp: 4;
+}
